@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+            alt="" class="image">
+        <select name="choice" id="choice">
+            <div class="container">
+                <option value="">
+                    <div class="selectitem">
+                        <i class="fa-thin fa-apple-whole"></i>
+                        <h4>Grocery</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Bakery</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Makeup</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Bags</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Clothing</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Furniture</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Daily Needs</h4>
+                    </div>
+                </option>
+                <div class="selectitem">
+                    Books
+                </div>
+                </option>
+            </div>
+        </select>
+
+        <ul type="none" class="sevice">
+            <li class="xyz"><a href="seller.html" style="color: white; text-decoration: none;">Become a seller</a></li>
+            <li class="xyz"><a href="join.html" style="color: white; text-decoration: none;">join</a></li>
+        </ul>
+
+        <ul type="none" class="info">
+            <li><a href="shops.html" style="color:black; text-decoration: none;">Shops</a></li>
+            <li><a href="offers.html" style="color:black; text-decoration: none;">Offers</a></li>
+            <li><a href="faq.html" style="color:black; text-decoration: none;">FAQs</a></li>
+            <li><a href="contact.html" style="color:black; text-decoration: none;">Contact</a></li>
+        </ul>
+    </header>
+    <article>
+        <div class="left">
+            <img src="contact-illustration.svg" alt="">
+            <h5>Address</h5>
+            <p>NY, United States</p>
+            <h5>Phone</h5>
+            <p>+129290122122</p>
+            <h5>Website</h5>
+            <div class="link">
+                <p>https://redq.io</p>
+                <a href="">Visit this Site</a>
+            </div>
+            <div class="follow">
+                <h5>Follow Us</h5>
+                <a target="_blank" href="https://icons8.com/icon/44411/twitter"></a>
+                <a target="_blank" href="https://icons8.com/icon/118467/facebook"></a>
+                <a target="_blank" href="https://icons8.com/icon/32292/instagram"></a>
+                <div class="images">
+                    <img src="https://img.icons8.com/ios-filled/16/undefined/facebook-new.png" />
+                    <img src="https://img.icons8.com/small/16/undefined/twitter.png" />
+                    <img src="https://img.icons8.com/ios/16/undefined/instagram-new--v1.png" />
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Questions, Comments, Or Concerns?</h2>
+            <label for="">Name</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="email" name="" id="">
+            <label for="">Subject</label>
+            <input type="text">
+            <label for="">Description</label>
+            <textarea name="" id="" cols="100" rows="10"></textarea>
+            <button type="submit">Submit</button>
+        </div>
+    </article>
+
+    <a target="_blank" href="https://icons8.com/icon/43546/menu"></a>
+    <a target="_blank" href="https://icons8.com/icon/43699/home"></a>
+    <a target="_blank" href="https://icons8.com/icon/47993/toolbox"></a>
+    <a target="_blank" href="https://icons8.com/icon/43726/contacts"></a>
+    <footer>
+        <img src="https://img.icons8.com/small/20/undefined/menu.png"  id="iconimage"/>
+        <a href="#index.html"><img src="https://img.icons8.com/small/20/undefined/home.png" /></a>
+        <img src="https://img.icons8.com/small/20/undefined/toolbox.png" />
+        <img src="https://img.icons8.com/small/20/undefined/contacts.png" />
+    </footer>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+                alt="" class="imageofmodal">
+               <a href="shops.html">Shops</a>
+               <a href="manufacturers.html">Manufacturers/Publishers</a>
+               <a href="authors.html">Authors</a>
+               <a href="offers.html">Offers</a>
+               <a href="faq.html">FAQ</a>
+               <a href="contact.html">Contact</a>
+            
+        </div>
+
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.querySelector("#iconimage");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+</body>
+
+</html>

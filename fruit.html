@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/cda4bfebc4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="pickbazar.js" defer></script>
+    <title>Fruit</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+                alt="" class="image">
+            <a target="_blank" href="https://icons8.com/icon/UUCuPVtr11JH/apple"></a>
+            <a target="_blank" href="https://icons8.com/icon/UUCuPVtr11JH/apple"></a>
+            <a target="_blank" href="https://icons8.com/icon/Kk6FazFwbvkv/breakfast"></a>
+            <a target="_blank" href="https://icons8.com/icon/WDjtwHBuTUZd/makeup"></a>
+            <a target="_blank" href="https://icons8.com/icon/wfo7XeKlqjEJ/shopping-bag"></a>
+            <a target="_blank" href="https://icons8.com/icon/2989/hanger"></a>
+            <a target="_blank" href="https://icons8.com/icon/0CyeCdThWE_V/rocking-chair"></a>
+            <a target="_blank" href="https://icons8.com/icon/23662/book-shelf"></a>
+            <div class="dropdown">
+                <button class="dropbtn"><img
+                        src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/2ecc71/external-apple-fruit-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" />Grocery</button>
+                <div class="dropdown-content">
+                    <a href="#"> <img
+                            src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/undefined/external-apple-fruit-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" />Grocery</a>
+                    <a href="#"><img
+                            src="https://img.icons8.com/external-justicon-lineal-justicon/20/undefined/external-breakfast-hotel-essentials-justicon-lineal-justicon.png" />Bakery</a>
+                    <a href="#"><img
+                            src="https://img.icons8.com/external-icongeek26-outline-icongeek26/20/undefined/external-makeup-lifestyle-icongeek26-outline-icongeek26.png" />Makeup</a>
+                    <a href="#"><img
+                            src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/20/undefined/external-shopping-bag-e-commerce-kmg-design-basic-outline-kmg-design-1.png" />Bags</a>
+                    <a href="#"><img src="https://img.icons8.com/ios/20/undefined/hanger.png" />Clothing</a>
+                    <a href="#"><img src="https://img.icons8.com/ios/20/undefined/rocking-chair.png" />Furniture</a>
+                    <a href="#"> <img
+                            src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/undefined/external-apple-fruit-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" />
+                        Daily needs</a>
+                    <a href="#"> <img src="https://img.icons8.com/ios/20/undefined/book-shelf.png" />books</a>
+                </div>
+            </div>
+
+            <ul type="none" class="sevice">
+                <li class="xyz"><a target="_blank" href="seller.html" style="color: white;">Become a seller</a></li>
+                <li class="xyz"><a href="join.html" style="color: white;">join</a></li>
+            </ul>
+
+            <ul type="none" class="info">
+                <li><a href="shops.html">Shops</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="manufacturers.html" class="manuf">Manufacturers</a></li>
+            </ul>
+        </div>
+        <a target="_blank" href="https://icons8.com/icon/82712/search"></a>
+        <div class="middled">
+            <div class="middle">
+                <h1>Groceries Delivered in 90 Minutes</h1>
+                <h2>Get your healthy foods & snacks delivered at your doorsteps all day everyday</h2>
+            </div>
+            <div class="inputfield">
+                <input type="text" id="id1" placeholder="Search your products from here">
+                <button type="search" id="id2"><img
+                        src="https://img.icons8.com/material-outlined/20/ffffff/search--v1.png" />search</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="express">
+            <h3>Express Delivery</h3>
+            <h4>With selected items</h4>
+        </div>
+        <div class="cash">
+            <h3>Cash On Delivery</h3>
+            <h4>With selected items</h4>
+        </div>
+        <div class="voucher">
+            <h3>Gift Voucher</h3>
+            <h4>With selected items</h4>
+        </div>
+        <!-- <div class="free">
+            <h3>Gift Voucher</h3>
+            <h4>With selected items</h4>
+        </div>
+        <div class="savings">
+            <h3>Gift Voucher</h3>
+            <h4>With selected items</h4>
+        </div> -->
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <a target="_blank" href="https://icons8.com/icon/83220/tune"></a>
+    <div class="belowslider">
+        <button type="button" class="dropbtn listofitems"><img
+                src="https://img.icons8.com/material-rounded/16/undefined/horizontal-settings-mixer--v1.png" />filter</button>
+        <button type="button" class="dropbtn listofitems"><img
+                src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/undefined/external-apple-fruit-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" />Grocery</button>
+    </div>
+    <div class="filter">
+        <i class="fa-thin fa-filter-list"></i>
+        <button>Filter</button>
+    </div>
+
+
+    <a target="_blank" href="https://icons8.com/icon/UUCuPVtr11JH/apple"></a>
+    <a target="_blank" href="https://icons8.com/icon/JKm6xUsuP7Nf/meat"></a>
+    <a target="_blank" href="https://icons8.com/icon/RiVvHXWzhw0B/tea-cup"></a>
+    <a target="_blank" href="https://icons8.com/icon/3971/dog-bowl"></a>
+    <a target="_blank" href="https://icons8.com/icon/fylwIERCXEck/window-cleaner"></a>
+    <a target="_blank" href="https://icons8.com/icon/Q9cc3NAZc9qJ/milk-bottle"></a>
+    <a target="_blank" href="https://icons8.com/icon/HzerrSu8D9uN/cooking"></a>
+    <a target="_blank" href="https://icons8.com/icon/Kk6FazFwbvkv/breakfast"></a>
+    <a target="_blank" href="https://icons8.com/icon/Y7WASPb7wnt8/beverage"></a>
+    <a target="_blank" href="https://icons8.com/icon/6861/mirror"></a>
+    <section class="items">
+        <div class="sidebar ">
+
+            <ul class="nav-links">
+
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/undefined/external-apple-fruit-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+                                alt="">
+                            <span class="link_name">Fruits & Vegetables</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Fruits & Vegetables</a></li>
+                        <li><a href="#">Fruits</a></li>
+                        <li><a href="#">Vegetables</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-icongeek26-outline-icongeek26/20/000000/external-meat-meat-icongeek26-outline-icongeek26-6.png" />
+                            <span class="link_name">Meat & Fish</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Meat & Fish</a></li>
+                        <li><a href="#">Fresh Fish</a></li>
+                        <li><a href="#">Meat</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/20/000000/external-tea-cup-kitchen-nawicon-detailed-outline-nawicon.png" />
+                            <span class="link_name">Snacks</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Snacks</a></li>
+                        <li><a href="#">Nuts & Biscuits</a></li>
+                        <li><a href="#">Chcolates</a></li>
+                        <li><a href="#">Crisps</a></li>
+                        <li><a href="#">Noodles & Pasta</a></li>
+                        <li><a href="#">Sauce</a></li>
+                        <li><a href="#">Soup</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img src="https://img.icons8.com/ios/20/000000/dog-bowl.png" />
+                            <span class="link_name">Pet Care</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Pet Care</a></li>
+                        <li><a href="#">Cat Food</a></li>
+                        <li><a href="#">Dog Food</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/20/000000/external-window-cleaner-cleaning-kiranshastry-lineal-kiranshastry.png" />
+                            <span class="link_name">Home & Cleaning</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Home & Cleaning</a></li>
+                        <li><a href="#">Air Freshner</a></li>
+                        <li><a href="#">Cleaning Products</a></li>
+                        <li><a href="#">Kitchen Accessories</a></li>
+                        <li><a href="#">Laundry</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-kosonicon-outline-kosonicon/20/000000/external-milk-bottle-breakfast-kosonicon-outline-kosonicon.png" />
+                            <span class="link_name">Dairy</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Dairy</a></li>
+                        <li><a href="#">Milk</a></li>
+                        <li><a href="#">Butter</a></li>
+                        <li><a href="#">Egg</a></li>
+                        <li><a href="#">Yogurt</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/20/000000/external-cooking-hobbies-and-free-time-xnimrodx-lineal-xnimrodx.png" />
+                            <span class="link_name">Cooking</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="#">Cooking</a></li>
+                        <li><a href="#">Oil</a></li>
+                        <li><a href="#">Rice</a></li>
+                        <li><a href="#">Salt & Sugar</a></li>
+                        <li><a href="#">Spices</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-justicon-lineal-justicon/20/000000/external-breakfast-hotel-essentials-justicon-lineal-justicon.png" />
+                            <span class="link_name">BreakFast</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Breakfast</a></li>
+                        <li><a href="#">Bread</a></li>
+                        <li><a href="#">Cereal</a></li>
+                        <li><a href="#">Jam</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img
+                                src="https://img.icons8.com/external-rabit-jes-detailed-outline-rabit-jes/20/000000/external-beverage-hotel-rabit-jes-detailed-outline-rabit-jes.png" />
+                            <span class="link_name">Beverage</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Beverage</a></li>
+                        <li><a href="#">Coffee</a></li>
+                        <li><a href="#">Energy Drinks</a></li>
+                        <li><a href="#">Juice</a></li>
+                        <li><a href="#">Fizzy Drinks</a></li>
+                        <li><a href="#">Tea</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <img src="https://img.icons8.com/ios/20/000000/mirror.png" />
+                            <span class="link_name">Health & Beauty</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Health & Beauty</a></li>
+                        <li><a href="#">Bath</a></li>
+                        <li><a href="#">Cream</a></li>
+                        <li><a href="#">Deodrant</a></li>
+                        <li><a href="#">Face Care</a></li>
+                        <li><a href="#">Oral Care</a></li>
+                        <li><a href="#">Shaving Needs</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="itemlist">
+
+
+            <div class="flexitems">
+                <div class="images" id="myBtn">
+                    <a href="popup1.html" target="_self">
+                        <div class="discount">20%</div>
+                        <img src="apple-2.webp" alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost18" value="1.60">$1.60
+                                <span>$2.00</span>
+                            </div>
+                            <div class="lighttext"> Apples</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button type="button" class="minus" onclick="myFunc2()">-</button>
+                        <button type="button" class="add" type="button">Add</button>
+                        <button type="button" class="plus" onclick="myFunc1()">+</button>
+                    </div>
+                    
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <header>
+                            <div class="leftside">
+                                <img src="apple-2.webp" alt="" class="headimg">
+                                <h3>Apples</h3>
+                                <p>1lb</p>
+                            </div>
+                            <div class="rightside">
+                                <h1 class="h1">$1.60 <span>$2.00</span></h1>
+                                <button class="headbtn">Add To Shopping Cart</button>
+                            </div>
+                        </header>
+                        <div class="popup">
+                            <div id="left">
+                                <div class="dis">20%</div>
+                                <img src="apple-1.webp" alt="" class="mainimage">
+                                <div id="images">
+                                    <img src="apple-1.webp" alt="" class="image">
+                                    <img src="apple-2.webp" alt="" class="image">
+                                    <img src="apple.webp" alt="" class="image">
+                                    <img src="apple-2.webp" alt="" class="image">
+                                </div>
+                            </div>
+                            <div id="right">
+                                <div class="text">
+                                    <h1>Apples</h1>
+                                    <p>1lb</p>
+                                    <p>An apple is a sweet, edible fruit produced by an apple tree (Malus
+                                        domestica).
+                                        Apple trees are ...
+                                        The skin of ripe apples is generally red, yellow, g...</p>
+                                    <a href="" class="link1">Read More</a>
+                                </div>
+                                <h1 class="h1">$1.60 <span>$2.00</span></h1>
+                                <div class="div1">
+                                    <button class="btn1">Add to Shopping Cart</button>
+                                    <p>18 pieces available</p>
+                                </div>
+                                <div class="div2">
+                                    <h3>Categories</h3>
+                                    <button class="btn2">fruits & vegetables</button>
+                                    <button class="btn3">fruits</button>
+                                </div>
+                                <div class="div3">
+                                    <h3>Sellers</h3>
+                                    <a href="" class="link2">Grocery Shop</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h3>Details</h3>
+                            <p>An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple
+                                trees are ... The skin
+                                of ripe apples is generally red, yellow, green, pink, or russetted, though many bi-
+                                or
+                                tri-colored cultivars
+                                may be found.</p>
+                        </div>
+                        <div class="related">
+                            <h3 class="heading">Related products</h3>
+                            <div class="itemlist">
+
+
+                                <div class="flexitems">
+                                    <div class="images ">
+                                        <div class="discount">20%</div>
+                                        <a href="popup1.html" target="_self"><img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1%2FApples.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$1.60
+                                                <span>$2.00</span>
+                                            </div>
+                                            <div class="lighttext"> Apples</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+                                    <div class="images">
+                                        <a href="popup2.html" target="_self">
+                                            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2%2FBabySpinach.jpg&w=1920&q=75"
+                                                alt="" class="itemimage">
+                                        </a>
+                                        <div class="left">
+                                            <div>$0.60</div>
+                                            <div class="lighttext">Baby Spinach</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+                                    <div class="images">
+                                        <a href="popup3.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F3%2Fblueberries.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$3.00</div>
+                                            <div class="lighttext">Blueberries</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+                                    <div class="images">
+                                        <div class="discount">40%</div>
+                                        <a href="popup4.html"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F4%2FBrusselsSprouts.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$3.00
+                                                <span>$5.00</span>
+                                            </div>
+                                            <div class="lighttext">Brussels Sprout</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+                                </div>
+
+
+                                <div class="flexitems">
+                                    <div class="images">
+                                        <div class="discount">17%</div>
+                                        <a href="popup5.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F6%2Fclementines.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$2.50
+                                                <span>$2.50</span>
+                                            </div>
+                                            <div class="lighttext">Clementines</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup6.html" target="_self"><img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F7%2FCorn.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$4.00
+                                                <span>$5.00</span>
+                                            </div>
+                                            <div class="lighttext">Sweet Corn</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+
+                                    <div class="images">
+                                        <a href="popup7.html"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F8%2FCucumber.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$2.50
+                                            </div>
+                                            <div class="lighttext">Cucumber</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup8.html"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F10%2FDates.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$8.00
+                                                <span>$10.00</span>
+                                            </div>
+                                            <div class="lighttext">Dates</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+                                </div>
+
+                                <div class="flexitems">
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup9.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F11%2FFrenchGreenBeans.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$1.20
+                                                <span>$1.50</span>
+                                            </div>
+                                            <div class="lighttext">French Green Beans</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup10.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F12%2FGreenBeans.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$4.00
+                                                <span>$5.00</span>
+                                            </div>
+                                            <div class="lighttext">Green Beans</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">25%</div>
+                                        <a href="popup11.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F13%2FGreenLimes.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$1.50
+                                                <span>$2.00</span>
+                                            </div>
+                                            <div class="lighttext">Lime</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <a href="popup12.html" target="_self"><img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F14%2FMangoes.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$2.50
+                                            </div>
+                                            <div class="lighttext">Mango</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                </div>
+                                <div class="flexitems">
+                                    <div class="images">
+                                        <div class="discount">17%</div>
+                                        <a href="popup13.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F15%2FMiniPeppers.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$5.00
+                                                <span>$6.00</span>
+                                            </div>
+                                            <div class="lighttext">Pepper</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">12%</div>
+                                        <a href="popup14.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F16%2Fpears.jpg&w=1920&q=75"
+                                                alt=" " class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$3.50
+                                                <span>$4.00</span>
+                                            </div>
+                                            <div class="lighttext">Pears</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">13%</div>
+                                        <a href="popup15.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F17%2FPeeled-Carrots.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$2.20
+                                                <span>$2.50</span>
+                                            </div>
+                                            <div class="lighttext">Peeled Baby Carrot</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">10%</div>
+                                        <a href="popup16.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F18%2FRedCherries.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$1.80
+                                                <span>
+                                                    $2.00</span>
+                                            </div>
+                                            <div class="lighttext">Cherry</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                </div>
+                                <div class="flexitems">
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup17.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F19%2Fstrawberry.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$8.00
+                                                <span>$10.00</span>
+                                            </div>
+                                            <div class="lighttext">Strawberry</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup18.html" target="_self"> <img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F20%2FVeggiePlatter.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$3.20
+
+                                                <span>$4.00</span>
+                                            </div>
+                                            <div class="lighttext">Mix Vegetable Platter</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+
+                                    <div class="images">
+                                        <div class="discount">20%</div>
+                                        <a href="popup19.html" target="_self"><img
+                                                src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F21%2FYellow-Limes.jpg&w=1920&q=75"
+                                                alt="" class="itemimage"></a>
+                                        <div class="left">
+                                            <div>$1.20
+                                                <span>$1.50</span>
+                                            </div>
+                                            <div class="lighttext">Lemon</div>
+                                        </div>
+                                        <button>Add <span>+</span></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="images">
+                    <a href="popup3.html" target="_self"> <img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F3%2Fblueberries.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost16" value="3.00">$3.00</div>
+                            <div class="lighttext">Blueberries</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc6()">-</button>
+                        <button class="add2">Add</button>
+                        <button class="plus" onclick="myFunc5()">+</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flexitems">
+                <div class="images">
+                    <a href="popup5.html" target="_self">
+                        <div class="discount">17%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F6%2Fclementines.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost14" value="2.50">$2.50
+                                <span>$2.50</span>
+                            </div>
+                            <div class="lighttext">Clementines</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc10()">-</button>
+                        <button class="add4">Add</button>
+                        <button class="plus" onclick="myFunc9()">+</button>
+                    </div>
+                </div>
+
+
+                <div class="images">
+                    <a href="popup6.html" target="_self">
+                        <div class="discount">20%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F7%2FCorn.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost13" value="4.00">$4.00
+                                <span>$5.00</span>
+                            </div>
+                            <div class="lighttext">Sweet Corn</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc12()">-</button>
+                        <button class="add5">Add</button>
+                        <button class="plus" onclick="myFunc11()">+</button>
+                    </div>
+                </div>
+
+
+                <div class="images">
+                    <a href="popup7.html"> <img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F8%2FCucumber.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost12" value="2.50">$2.50
+                            </div>
+                            <div class="lighttext">Cucumber</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc14()">-</button>
+                        <button class="add6">Add</button>
+                        <button class="plus" onclick="myFunc13()">+</button>
+                    </div>
+                </div>
+
+
+                <div class="images">
+                    <a href="popup8.html">
+                        <div class="discount">20%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F10%2FDates.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost11" value="8.00">$8.00
+                                <span>$10.00</span>
+                            </div>
+                            <div class="lighttext">Dates</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc16()">-</button>
+                        <button class="add7">Add</button>
+                        <button class="plus" onclick="myFunc15()">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flexitems">
+                <div class="images">
+                    <a href="popup9.html" target="_self">
+                        <div class="discount">20%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F11%2FFrenchGreenBeans.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost10" value="1.20">$1.20
+                                <span>$1.50</span>
+                            </div>
+                            <div class="lighttext">French Green Beans</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc18()">-</button>
+                        <button class="add8">Add</button>
+                        <button class="plus" onclick="myFunc17()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <a href="popup10.html" target="_self">
+                        <div class="discount">20%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F12%2FGreenBeans.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost9" value="4.00">$4.00
+                                <span>$5.00</span>
+                            </div>
+                            <div class="lighttext">Green Beans</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc20()">-</button>
+                        <button class="add9">Add</button>
+                        <button class="plus" onclick="myFunc19()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+
+                    <a href="popup11.html" target="_self">
+                        <div class="discount">25%</div> <img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F13%2FGreenLimes.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost8" value="1.50">$1.50
+                                <span>$2.00</span>
+                            </div>
+                            <div class="lighttext">Lime</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc22()">-</button>
+                        <button class="add10">Add</button>
+                        <button class="plus" onclick="myFunc21()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <a href="popup12.html" target="_self"><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F14%2FMangoes.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost7" value="2.50">$2.50
+                            </div>
+                            <div class="lighttext">Mango</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc24()">-</button>
+                        <button class="add11">Add</button>
+                        <button class="plus" onclick="myFunc23()">+</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flexitems">
+                <div class="images">
+                    <a href="popup13.html" target="_self">
+                        <div class="discount">17%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F15%2FMiniPeppers.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost6">$5.00
+                                <span>$6.00</span>
+                            </div>
+                            <div class="lighttext">Pepper</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc26()">-</button>
+                        <button class="add12">Add</button>
+                        <button class="plus" onclick="myFunc25()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+
+                    <a href="popup14.html" target="_self">
+                        <div class="discount">12%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F16%2Fpears.jpg&w=1920&q=75"
+                            alt=" " class="itemimage">
+                        <div class="left">
+                            <div id="cost5" value="3.50">$3.50
+                                <span>$4.00</span>
+                            </div>
+                            <div class="lighttext">Pears</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc28()">-</button>
+                        <button class="add13">Add</button>
+                        <button class="plus" onclick="myFunc27()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+
+                    <a href="popup15.html" target="_self">
+                        <div class="discount">13%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F17%2FPeeled-Carrots.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost4" value="2.20">$2.20
+                                <span>$2.50</span>
+                            </div>
+                            <div class="lighttext">Peeled Baby Carrot</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc30()">-</button>
+                        <button class="add14">Add</button>
+                        <button class="plus" onclick="myFunc29()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+
+                    <a href="popup16.html" target="_self">
+                        <div class="discount">10%</div> <img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F18%2FRedCherries.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost3" value="1.80">$1.80
+                                <span>
+                                    $2.00</span>
+                            </div>
+                            <div class="lighttext">Cherry</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc32()">-</button>
+                        <button class="add15">Add</button>
+                        <button class="plus" onclick="myFunc31()">+</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flexitems">
+                <div class="images">
+
+                    <a href="popup17.html" target="_self">
+                        <div class="discount">20%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F19%2Fstrawberry.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost2" value="8.00">$8.00
+                                <span>$10.00</span>
+                            </div>
+                            <div class="lighttext">Strawberry</div>
+                        </div>
+                    </a>
+
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc34()">-</button>
+                        <button class="add16">Add</button>
+                        <button class="plus" onclick="myFunc33()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <a href="popup18.html" target="_self">
+                        <div class="discount">20%</div><img
+                            src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F20%2FVeggiePlatter.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost1" value="3.20">$3.20
+
+                                <span>$4.00</span>
+                            </div>
+                            <div class="lighttext">Mix Vegetable Platter</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc36()">-</button>
+                        <button class="add17">Add</button>
+                        <button class="plus" onclick="myFunc35()">+</button>
+                    </div>
+                </div>
+
+                <div class="images">
+                    <a href="popup19.html" target="_self">
+                        <div class="discount">20%</div>
+                        <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F21%2FYellow-Limes.jpg&w=1920&q=75"
+                            alt="" class="itemimage">
+                        <div class="left">
+                            <div id="cost" value="1.20">$1.20
+                                <span>$1.50</span>
+                            </div>
+
+                            <div class="lighttext">Lemon</div>
+                        </div>
+                    </a>
+                    <div class="btn-group">
+                        <button class="minus" onclick="myFunc38()">-</button>
+                        <button class="add18">Add</button>
+                        <button class="plus" onclick="myFunc37()">+</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="totalpopup">
+            <div id="icons">
+                <i class="fa-solid fa-bag-shopping" style="margin-top: 3px;"></i>
+                <p id="itemcount">0 Item</p>
+            </div>
+            <button class="total" value="0.00" type="button">$0.00</button>
+        </div>
+    </section>
+
+    <!--💀💀💀💀💀 code for popup -->
+    <a target="_blank" href="https://icons8.com/icon/43546/menu"></a>
+    <a target="_blank" href="https://icons8.com/icon/43699/home"></a>
+    <a target="_blank" href="https://icons8.com/icon/47993/toolbox"></a>
+    <a target="_blank" href="https://icons8.com/icon/43726/contacts"></a>
+    <footer>
+        <img src="https://img.icons8.com/small/20/undefined/menu.png" id="iconimage" />
+        <img src="https://img.icons8.com/small/20/undefined/home.png" />
+        <img src="https://img.icons8.com/small/20/undefined/toolbox.png" />
+        <img src="https://img.icons8.com/small/20/undefined/contacts.png" />
+    </footer>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+                alt="" class="imageofmodal">
+            <a href="shops.html">Shops</a>
+            <a href="manufacturers.html">Manufacturers/Publishers</a>
+            <a href="manufacturers.html">Authors</a>
+            <a href="offers.html">Offers</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.querySelector("#iconimage");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // sticky header 
+        window.onscroll = function () { myFunction() };
+
+        var myHeader = document.getElementById("header");
+        var sticky = myHeader.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                myHeader.classList.add("sticky");
+            } else {
+                myHeader.classList.remove("sticky");
+            }
+        }
+
+
+        // script for category sub menu
+        let arrow = document.querySelectorAll(".arrow");
+        for (var i = 0; i < arrow.length; i++) {
+            arrow[i].addEventListener("click", (e) => {
+                e.preventDefault();
+                let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+                arrowParent.classList.toggle("showMenu");
+            });
+        }
+
+        // script for modal
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

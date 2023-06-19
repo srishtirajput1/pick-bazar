@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #F3F4F6;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+    position: fixed;
+
+    top: 0;
+    right: 0;
+
+    left: 0;
+
+    z-index: 999;
+}
+
+.image {
+    height: 25px;
+    margin: 20px 40px 0px 20px;
+}
+
+select {
+    color: #009F7F;
+    border-radius: 5px;
+    border: 1px solid rgb(239, 233, 233);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 130px;
+}
+
+ul {
+    margin-top: 25px;
+    display: flex;
+    float: right;
+}
+
+li {
+    margin-right: 28px;
+    font-weight: 16px;
+    color: #1F2937;
+}
+
+.xyz {
+    background-color: #009F7F;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-top: -10px;
+}
+
+article {
+    text-align: center;
+}
+
+h4 {
+    color: #1F2937;
+    font-weight: normal;
+}
+
+input {
+    background-color: #F3F4F6;
+    height: 50px;
+    width: 800px;
+    padding: 10px;
+    border: none;
+
+}
+
+.search {
+    display: flex;
+    height: 50px;
+    margin: 40px 250px;
+    background-color: #F3F4F6;
+    border-radius: 10px;
+}
+
+.search img {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.search:focus {
+    border-color: #009F7F;
+}
+
+input:focus {
+    outline: none;
+}
+
+article div {
+    display: flex;
+}
+
+.content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.images img {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #1f293799;
+}
+
+#div {
+    margin: 0px 80px;
+}
+
+#div img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.03);;
+    border-radius: 50%;
+}
+
+h4{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.div,
+.div1,
+.div2 {
+    content: none;
+    margin: 40px 20px 0px 20px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: #009F7F;
+    border: none;
+    font-size: medium;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn {
+    text-align: center;
+}
+
+h2 {
+    color: #009F7F;
+    text-align: center;
+    margin-top: 140px;
+    font-size: xx-large;
+}
+
+p {
+    color: black;
+    /* font-style: italic; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    display: none;
+}
+
+.modal {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    body {
+        text-align: left;
+        font-size: small;
+    }
+
+    .image {
+        height: 20px;
+        margin: 20px 40px 0px 120px;
+    }
+
+    ul,
+    li,
+    select {
+        display: none;
+    }
+
+    h4 {
+        font-size: large;
+        color: #1F2937;
+        font-weight: normal;
+        margin-left: -120px;
+    }
+
+    article h2 {
+        margin-top: 100px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: large;
+    }
+
+    p {
+        margin-left: -40px;
+        font-style: normal;
+    }
+
+    input {
+        background-color: #F3F4F6;
+        height: 40px;
+        width: 290px;
+    }
+
+    .search {
+        display: flex;
+        height: 40px;
+        margin: 40px 20px;
+        background-color: #F3F4F6;
+        border-radius: 10px;
+    }
+    .authors-list{
+        margin-left: 20px;
+    }
+    .search img {
+        height: 16px;
+        width: 16px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    article div {
+        display: flex;
+    }
+
+    #div {
+        flex-direction: column;
+    }
+
+    .div,
+    .div1,
+    .div2 {
+
+        width: 280px;
+        height: 60px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        padding-bottom: 20px;
+    }
+
+    button {
+        font-size: small;
+    }
+
+    .btn {
+        text-align: center;
+       margin: 50px 0;
+    }
+
+    footer {
+        background-color: white;
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #F3F4F6;
+        padding: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+        position: fixed;
+
+        bottom: 0;
+        right: 0;
+
+        left: 0;
+
+        z-index: 999;
+    }
+
+    .modal {
+        /* display: none; */
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1000;
+        /* Sit on top */
+        left: 0;
+        top: -55px;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+
+    .imageofmodal{
+        height: 24px;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        color: #1F2937;
+        /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        height: 100%;
+        /* height: 100%;
+        width: 100%; */
+        /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: white;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #F3F4F6;
+        padding: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+
+    /* .modal-content{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .modal a{
+        display: flex;
+        text-decoration: none;
+        color: #1F2937;
+        margin-bottom: 20px;
+    }
+
+
+}

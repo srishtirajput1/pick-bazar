@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    border-bottom: 1px solid #F3F4F6;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.03);
+    position: sticky;
+}
+
+.image {
+    height: 25px;
+    margin: 20px 40px 0px 20px;
+}
+
+.container {
+    height: 30px;
+    width: 150px;
+    display: inline-block;
+    top: 0;
+}
+
+select {
+    color: #009F7F;
+    border-radius: 5px;
+    border: 1px solid rgb(239, 233, 233);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 130px;
+}
+
+ul {
+    margin-top: 25px;
+    display: flex;
+    float: right;
+}
+
+li {
+    margin-right: 28px;
+    font-weight: 16px;
+    color: #1F2937;
+}
+
+.xyz {
+    background-color: #009F7F;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-top: -10px;
+}
+
+#side-div button{
+    height: 50px;
+    width: 450px;
+    margin-top: 20px;
+    background-color: #1F2937;
+    border: 1px solid #1F2937;
+    color: #6B7280;
+    border-radius: 10px;
+}
+article{
+    margin-top: 50px;
+    display: flex;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+article ul{
+    display: flex;
+    flex-direction: column;
+}
+#div1, #div2, #div3, #div4{
+    margin-left: 150px;
+    width: 600px;
+    border: 1px solid transparent;
+    padding: 20px;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+#side-div{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+span{
+    background-color: #009F7F;
+    color: white;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border-radius: 50%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    width: 590px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 40px;
+    border: 1px solid #e6e8ec;
+    border-radius: 5px;
+}
+
+#div{
+    border: 1px solid #009F7F;
+    display: inline-block;
+    margin: 20px 10px 10px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 156px;
+}
+

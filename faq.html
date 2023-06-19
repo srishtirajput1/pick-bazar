@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faq.css">
+    <title>FAQ</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+            alt="" class="image">
+        <select name="choice" id="choice">
+            <div class="container">
+                <option value="">
+                    <div class="selectitem">
+                        <i class="fa-thin fa-apple-whole"></i>
+                        <h4>Grocery</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Bakery</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Makeup</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Bags</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Clothing</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Furniture</h4>
+                    </div>
+                </option>
+                <option value="">
+                    <div class="selectitem">
+                        <h4>Daily Needs</h4>
+                    </div>
+                </option>
+                <div class="selectitem">
+                    Books
+                </div>
+                </option>
+            </div>
+        </select>
+
+        <ul type="none" class="sevice">
+            <li class="xyz"><a href="seller.html" style="color: white; text-decoration: none;">Become a seller</a></li>
+            <li class="xyz"><a href="join.html" style="color: white; text-decoration: none;">join</a></li>
+        </ul>
+
+        <ul type="none" class="info">
+            <li><a href="shops.html" style="color:black; text-decoration: none;">Shops</a></li>
+            <li><a href="offers.html" style="color:black; text-decoration: none;">Offers</a></li>
+            <li><a href="faq.html" style="color:black; text-decoration: none;">FAQs</a></li>
+            <li><a href="contact.html" style="color:black; text-decoration: none;">Contact</a></li>
+        </ul>
+    </header>
+    <article>
+        <h2>FAQ</h2>
+        <div class="box">
+            <div class="items">
+                <p>How to contact with Customer Service?</p>
+                <button type="button" class="btn btn1" id="btn1" onclick="showInfo()">+</button>
+            </div>
+            <p class="para para1" id="para1">Our Customer Experience Team is available 7 days a week and we offer 2 ways
+                to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a
+                response!.</p>
+        </div>
+        <div class="box">
+            <div class="items">
+                <p>App installation failed, how to update system information?</p>
+                <button type="button" class="btn btn2" id="btn2">+</button>
+            </div>
+            <p class="para para2" id="para2">
+                Please read the documentation carefully . We also have some online video tutorials regarding this issue
+                . If the problem remains, Please Open a ticket in the support forum
+            </p>
+        </div>
+        <div class="box">
+            <div class="items">
+                <p>Website response taking time, how to improve?</p>
+                <button type="button" class="btn" id="btn3">+</button>
+            </div>
+            <p class="para para3" id="para3">
+                At first, Please check your internet connection . We also have some online video tutorials regarding
+                this issue . If the problem remains, Please Open a ticket in the support forum.
+            </p>
+        </div>
+        <div class="box">
+            <div class="items">
+                <p>How do I create an account?</p>
+                <button class="btn" id="btn4">+</button>
+            </div>
+            <p class="para para4" id="para4">
+                If you want to open an account for personal use you can do it over the phone or online. Opening an
+                account online should only take a few minutes.
+            </p>
+        </div>
+    </article>
+
+    <a target="_blank" href="https://icons8.com/icon/43546/menu"></a>
+    <a target="_blank" href="https://icons8.com/icon/43699/home"></a>
+    <a target="_blank" href="https://icons8.com/icon/47993/toolbox"></a>
+    <a target="_blank" href="https://icons8.com/icon/43726/contacts"></a>
+    <footer>
+        <img src="https://img.icons8.com/small/20/undefined/menu.png" id="iconimage" />
+       <a href="#index.html"> <img src="https://img.icons8.com/small/20/undefined/home.png" /></a>
+        <img src="https://img.icons8.com/small/20/undefined/toolbox.png" />
+        <img src="https://img.icons8.com/small/20/undefined/contacts.png" />
+    </footer>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+                alt="" class="imageofmodal">
+            <a href="shops.html">Shops</a>
+            <a href="manufacturers.html">Manufacturers/Publishers</a>
+            <a href="authors.html">Authors</a>
+            <a href="offers.html">Offers</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </div>
+
+    <script>
+        var plusBtn1 = document.querySelector("#btn1");
+        var paragraph1 = document.querySelector("#para1");
+        plusBtn1.addEventListener("click", () => {
+            plusBtn1.innerHTML = "-";
+            plusBtn2.innerHTML = "+";
+            plusBtn3.innerHTML = "+";
+            plusBtn4.innerHTML = "+";
+            paragraph1.style.display = "block";
+            paragraph2.style.display = "none";
+            paragraph3.style.display = "none";
+            paragraph4.style.display = "none";
+        })
+
+        // var plusButton = plusBtn1.innerHTML;
+        // plusButton.addEventListener("click", () => {
+        //     console.log(paragraph1);
+        //     plusBtn1.innerHTML = "+";
+        //     paragraph1.style.display = "none";
+        // })
+
+        var plusBtn2 = document.querySelector("#btn2");
+        var paragraph2 = document.querySelector("#para2");
+        plusBtn2.addEventListener("click", () => {
+            plusBtn2.innerHTML = "-";
+            plusBtn1.innerHTML = "+";
+            plusBtn3.innerHTML = "+";
+            plusBtn4.innerHTML = "+";
+            paragraph2.style.display = "block";
+            paragraph1.style.display = "none";
+            paragraph3.style.display = "none";
+            paragraph4.style.display = "none";
+
+        })
+        var plusBtn3 = document.querySelector("#btn3");
+        var paragraph3 = document.querySelector("#para3");
+        plusBtn3.addEventListener("click", () => {
+            plusBtn3.innerHTML = "-";
+            plusBtn2.innerHTML = "+";
+            plusBtn1.innerHTML = "+";
+            plusBtn4.innerHTML = "+";
+            paragraph3.style.display = "block";
+            paragraph1.style.display = "none";
+            paragraph2.style.display = "none";
+            paragraph4.style.display = "none";
+        })
+        var plusBtn4 = document.querySelector("#btn4");
+        var paragraph4 = document.querySelector("#para4");
+        plusBtn4.addEventListener("click", () => {
+            plusBtn4.innerHTML = "-";
+            plusBtn2.innerHTML = "+";
+            plusBtn1.innerHTML = "+";
+            plusBtn3.innerHTML = "+";
+            paragraph4.style.display = "block";
+            paragraph1.style.display = "none";
+            paragraph2.style.display = "none";
+            paragraph3.style.display = "none";
+        })
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.querySelector("#iconimage");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
